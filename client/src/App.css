@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.HeaderHome {
+  background: #A92C21;
+  display: flex;
+  justify-content: center;
+}
+
+.HeaderHome>* {
+  color: WHITE;
+  font-weight: bold;
+}
+
+.HeaderHome p {
+  margin-top: 33px;
+  margin-left: 10px;
+}
+
+.Header {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Header div {
+  width: 80%;
+  background: #D1483B;
+  color: white;
+  padding-top: 17px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.BinButton {
+  background: #ed6b5a;
+  width: 40%;
+  margin: 17px auto;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.FullHeader {
+  background: #ed6b5a;
+  display: flex;
+  color: white;
+}
+
+.Home {
+  width: 20%;
+  background: #ab2a19;
+}
+
+.image-container {
+  width: 37%;
+  display: flex;
+  justify-content: start;
+}
+
+.bin {
+  padding: 25px 0px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 75%;
+}
+
+.Shelf {
+  width: 30%;
+  background: #d34735;
+  padding: 25px 0px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.BinButtonAdd {
+  background: #ffb8af;
+  width: 40%;
+  margin: 17px auto;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.Header a {
+  width: 20%;
+  background: #A92C21;
+}
+
+.Header img {
+  width: 50px;
+  height: 50px;
+}
+
+.shelfButton {
+  margin: 10px auto;
+  background: #D1483B;
+  padding: 12px;
+  border-radius: 4px;
+  text-align: left;
+  padding-left: 18px;
+  width: 37%;
+  color: white;
+}
+
+.HeaderHome img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
